@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-22T15:36:36 IST" name="Default suite" finished-at="2022-12-22T15:37:09 IST" duration-ms="33133">
+    <groups>
+    </groups>
+    <test started-at="2022-12-22T15:36:36 IST" name="Default test" finished-at="2022-12-22T15:37:09 IST" duration-ms="33133">
+      <class name="com.retirement.testCases.TestCalculator">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.retirement.testCases.TestCalculator@3c46e67a]" started-at="2022-12-22T15:36:34 IST" name="setUpSuite" finished-at="2022-12-22T15:36:36 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retirement.testCases.TestCalculator@3c46e67a]" started-at="2022-12-22T15:36:36 IST" name="setup" finished-at="2022-12-22T15:37:03 IST" duration-ms="27700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculator()[pri:0, instance:com.retirement.testCases.TestCalculator@3c46e67a]" started-at="2022-12-22T15:37:03 IST" name="testCalculator" finished-at="2022-12-22T15:37:07 IST" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.retirement.testCases.TestCalculator@3c46e67a]" started-at="2022-12-22T15:37:07 IST" name="tearDownMethod" finished-at="2022-12-22T15:37:08 IST" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCalculator status=SUCCESS method=TestCalculator.testCalculator()[pri:0, instance:com.retirement.testCases.TestCalculator@3c46e67a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retirement.testCases.TestCalculator@3c46e67a]" started-at="2022-12-22T15:37:08 IST" name="tearDown" finished-at="2022-12-22T15:37:09 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.retirement.testCases.TestCalculator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
